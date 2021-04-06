@@ -52,7 +52,7 @@ public class ParamCovarant {
     }
 
     public static void main(String[] args) {
-//        new ParamCovarant().test();
+//        new ParamCovarant().Test();
 
         DerivedGS dgs=new DerivedGS();
         dgs.set(new Derived());

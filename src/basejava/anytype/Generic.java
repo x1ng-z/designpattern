@@ -95,7 +95,7 @@ public class Generic {
 
 //        T object,List<? super T> list
         List<? super Apple> test = gfriuts1;//parent=object,so it's parent of Apple class
-/***       gfriuts1=test;error**/
+/***       gfriuts1=Test;error**/
         writewildcard(new Apple(), gfriuts1);
 
         writewildcard(new Apple(), apples);

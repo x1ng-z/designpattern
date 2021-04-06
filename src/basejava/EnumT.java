@@ -43,12 +43,12 @@ public class EnumT {
     public static void main(String[] args) {
 
          Map<Integer, String> modulepool = new ConcurrentHashMap<>();
-        modulepool.put(1,"test");
+        modulepool.put(1,"Test");
         modulepool.put(2,"aa");
         Iterator iterator = modulepool.values().iterator();
         while (iterator.hasNext()) {
             String pySession = (String) iterator.next();
-            if (pySession.equals("test")) {
+            if (pySession.equals("Test")) {
                 iterator.remove();
             }
         }
