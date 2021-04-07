@@ -11,6 +11,7 @@ import java.util.Optional;
 public class Java8Tester {
     public static void main(String args[]){
 //        test
+        //hs compute change test
         Java8Tester java8Tester = new Java8Tester();
         Integer value1 = null;
         Integer value2 = new Integer(10);
