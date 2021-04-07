@@ -14,6 +14,7 @@ public class Java8Tester {
         //hs compute change test
         //zzx compuet change i
         //hs compute change II
+        //zzx II
         Java8Tester java8Tester = new Java8Tester();
         Integer value1 = null;
         Integer value2 = new Integer(10);
