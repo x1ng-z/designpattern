@@ -1,5 +1,8 @@
 package basejava.Option;
 
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 /**
@@ -8,7 +11,22 @@ import java.util.Optional;
  * @date 2021/3/31 10:07
  */
 
+class NodeInstanceCache{
+    private List<Long> parent;
+
+    public List<Long> getParent() {
+        return parent;
+    }
+
+    public void setParent(List<Long> parent) {
+        this.parent = parent;
+    }
+}
+
 public class Java8Tester {
+    
+
+
     public static void main(String args[]){
 //        test
         //hs compute change test
@@ -16,6 +34,7 @@ public class Java8Tester {
         //hs compute change II
         //zzx II
         //hs III_1
+
 
         Java8Tester java8Tester = new Java8Tester();
         Integer value1 = null;
